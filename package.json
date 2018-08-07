@@ -6,7 +6,7 @@
     "url": "https://github.com/amaneku/stylelint-config/issues"
   },
   "dependencies": {
-    "stylelint-config-prettier": "3.3.0",
+    "stylelint-config-prettier": "4.0.0",
     "stylelint-config-recommended": "2.1.0"
   },
   "devDependencies": {
