@@ -10,7 +10,7 @@
     "stylelint-config-recommended": "2.1.0"
   },
   "devDependencies": {
-    "@amaneku/prettier-config": "1.1.0",
+    "@amaneku/prettier-config": "1.2.0",
     "@amaneku/renovate-config": "1.0.1",
     "stylelint": "9.4.0"
   },
