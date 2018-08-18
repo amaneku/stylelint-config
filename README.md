@@ -10,12 +10,12 @@ $ npm install --save-dev @amaneku/stylelint-config
 
 ## Usage
 
-in `stylelint config`
+in stylelint config
 
 ```
 {
   extends: ["@amaneku/stylelint-config"]
-};
+}
 ```
 
 ## License
