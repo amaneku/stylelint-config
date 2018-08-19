@@ -12,7 +12,7 @@
   "devDependencies": {
     "@amaneku/prettier-config": "1.2.0",
     "@amaneku/renovate-config": "1.0.1",
-    "stylelint": "9.4.0"
+    "stylelint": "9.5.0"
   },
   "homepage": "https://github.com/amaneku/stylelint-config#readme",
   "keywords": [
