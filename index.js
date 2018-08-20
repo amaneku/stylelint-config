@@ -23,6 +23,7 @@ module.exports = {
         ]
       }
     ],
+    'at-rule-no-vendor-prefix': true,
     'color-hex-length': 'short',
     'length-zero-no-unit': true,
     'selector-pseudo-element-colon-notation': 'double'
