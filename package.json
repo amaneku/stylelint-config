@@ -14,6 +14,7 @@
     "@amaneku/renovate-config": "1.0.1",
     "stylelint": "9.5.0"
   },
+  "files": [],
   "homepage": "https://github.com/amaneku/stylelint-config#readme",
   "keywords": [
     "config",
