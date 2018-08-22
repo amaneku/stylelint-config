@@ -5,21 +5,22 @@ module.exports = {
       true,
       {
         ignoreAtRules: [
-          'extend',
           'at-root',
-          'debug',
-          'warn',
-          'error',
-          'if',
-          'else',
-          'for',
-          'each',
-          'while',
-          'mixin',
-          'include',
           'content',
+          'debug',
+          'each',
+          'else',
+          'else if',
+          'error',
+          'extend',
+          'for',
+          'function',
+          'if',
+          'include',
+          'mixin',
           'return',
-          'function'
+          'warn',
+          'while'
         ]
       }
     ],
