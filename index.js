@@ -27,7 +27,11 @@ module.exports = {
     'at-rule-no-vendor-prefix': true,
     'color-hex-length': 'short',
     'comment-whitespace-inside': 'always',
+    'function-url-quotes': 'always',
+    'function-whitespace-after': 'always',
     'length-zero-no-unit': true,
+    'media-feature-range-operator-space-after': 'always',
+    'media-feature-range-operator-space-before': 'always',
     'selector-pseudo-element-colon-notation': 'double'
   }
 };
