@@ -26,6 +26,7 @@ module.exports = {
     ],
     'at-rule-no-vendor-prefix': true,
     'color-hex-length': 'short',
+    'comment-whitespace-inside': 'always',
     'length-zero-no-unit': true,
     'selector-pseudo-element-colon-notation': 'double'
   }
