@@ -1,9 +1,24 @@
 {
   "name": "@amaneku/stylelint-config",
-  "description": "stylelint config",
   "version": "0.1.0",
+  "description": "stylelint config",
+  "keywords": [
+    "config",
+    "stylelint"
+  ],
+  "homepage": "https://github.com/amaneku/stylelint-config#readme",
   "bugs": {
     "url": "https://github.com/amaneku/stylelint-config/issues"
+  },
+  "license": "MIT",
+  "files": [],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amaneku/stylelint-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "stylelint-config-prettier": "4.0.0",
@@ -13,20 +28,5 @@
     "@amaneku/prettier-config": "1.2.0",
     "@amaneku/renovate-config": "1.0.1",
     "stylelint": "9.5.0"
-  },
-  "files": [],
-  "homepage": "https://github.com/amaneku/stylelint-config#readme",
-  "keywords": [
-    "config",
-    "stylelint"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/amaneku/stylelint-config.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
