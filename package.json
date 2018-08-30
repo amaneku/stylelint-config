@@ -18,7 +18,7 @@
     "url": "https://github.com/amaneku/stylelint-config.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fmt": "prettier --write \"index.js\""
   },
   "dependencies": {
     "stylelint-config-prettier": "4.0.0",
@@ -27,6 +27,7 @@
   "devDependencies": {
     "@amaneku/prettier-config": "1.2.0",
     "@amaneku/renovate-config": "1.0.1",
+    "prettier": "1.14.2",
     "stylelint": "9.5.0"
   }
 }
