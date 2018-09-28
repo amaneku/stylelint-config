@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['stylelint-config-recommended', 'stylelint-config-prettier'],
+  plugins: ['stylelint-order'],
   rules: {
     'at-rule-no-unknown': [
       true,
@@ -49,6 +50,8 @@ module.exports = {
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
     'shorthand-property-no-redundant-values': true,
-    'value-keyword-case': 'lower'
+    'value-keyword-case': 'lower',
+
+    'order/properties-alphabetical-order': true
   }
 };
