@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "stylelint-config-prettier": "4.0.0",
-    "stylelint-config-recommended": "2.1.0"
+    "stylelint-config-recommended": "2.1.0",
+    "stylelint-order": "1.0.0"
   },
   "devDependencies": {
     "@amaneku/prettier-config": "1.2.0",
