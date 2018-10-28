@@ -29,6 +29,6 @@
     "@amaneku/prettier-config": "1.2.0",
     "@amaneku/renovate-config": "1.0.1",
     "prettier": "1.14.3",
-    "stylelint": "9.6.0"
+    "stylelint": "9.7.0"
   }
 }
