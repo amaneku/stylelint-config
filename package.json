@@ -21,8 +21,8 @@
     "fmt": "prettier --write \"index.js\""
   },
   "dependencies": {
-    "stylelint-config-prettier": "^5.0.0",
-    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-recommended": "^2.2.0",
     "stylelint-order": "^3.0.0"
   },
   "devDependencies": {
