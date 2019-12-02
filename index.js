@@ -1,30 +1,8 @@
 module.exports = {
   extends: ['stylelint-config-recommended', 'stylelint-config-prettier'],
-  plugins: ['stylelint-order'],
+  plugins: ['stylelint-order', 'stylelint-scss'],
   rules: {
-    'at-rule-no-unknown': [
-      true,
-      {
-        ignoreAtRules: [
-          'at-root',
-          'content',
-          'debug',
-          'each',
-          'else',
-          'else if',
-          'error',
-          'extend',
-          'for',
-          'function',
-          'if',
-          'include',
-          'mixin',
-          'return',
-          'warn',
-          'while'
-        ]
-      }
-    ],
+    'at-rule-no-unknown': null,
     'at-rule-no-vendor-prefix': true,
     'color-hex-length': 'short',
     'comment-empty-line-before': [
@@ -52,6 +30,11 @@ module.exports = {
     'shorthand-property-no-redundant-values': true,
     'value-keyword-case': 'lower',
 
-    'order/properties-alphabetical-order': true
+    // order
+    'order/properties-alphabetical-order': true,
+
+    // scss
+    'scss/at-rule-no-unknown': true,
+    'scss/selector-no-union-class-name': true
   }
 };
