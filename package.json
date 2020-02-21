@@ -23,7 +23,7 @@
   "dependencies": {
     "stylelint-config-prettier": "^8.0.0",
     "stylelint-config-recommended": "^3.0.0",
-    "stylelint-order": "^3.0.1",
+    "stylelint-order": "^4.0.0",
     "stylelint-scss": "^3.13.0"
   },
   "devDependencies": {
