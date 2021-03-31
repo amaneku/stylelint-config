@@ -2,8 +2,10 @@ module.exports = {
   extends: ['stylelint-config-recommended', 'stylelint-config-prettier'],
   plugins: ['stylelint-order', 'stylelint-scss'],
   rules: {
+    'alpha-value-notation': 'number',
     'at-rule-no-unknown': null,
     'at-rule-no-vendor-prefix': true,
+    'color-function-notation': 'modern',
     'color-hex-length': 'short',
     'comment-empty-line-before': [
       'always',
@@ -17,6 +19,7 @@ module.exports = {
     'font-family-name-quotes': 'always-where-recommended',
     'function-url-quotes': 'always',
     'function-whitespace-after': 'always',
+    'hue-degree-notation': 'angle',
     'length-zero-no-unit': true,
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
