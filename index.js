@@ -1,9 +1,8 @@
 module.exports = {
-  extends: ['stylelint-config-recommended', 'stylelint-config-prettier'],
-  plugins: ['stylelint-order', 'stylelint-scss'],
+  extends: ['stylelint-config-recommended-scss', 'stylelint-config-prettier'],
+  plugins: ['stylelint-order'],
   rules: {
     'alpha-value-notation': 'number',
-    'at-rule-no-unknown': null,
     'at-rule-no-vendor-prefix': true,
     'color-function-notation': 'modern',
     'color-hex-length': 'short',
@@ -39,7 +38,6 @@ module.exports = {
     'order/properties-alphabetical-order': true,
 
     // scss
-    'scss/at-rule-no-unknown': true,
     'scss/selector-no-union-class-name': true
   }
 };
