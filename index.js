@@ -10,8 +10,8 @@ module.exports = {
       'always',
       {
         except: ['first-nested'],
-        ignore: ['stylelint-commands']
-      }
+        ignore: ['stylelint-commands'],
+      },
     ],
     'comment-whitespace-inside': 'always',
     'declaration-empty-line-before': 'never',
@@ -28,7 +28,7 @@ module.exports = {
     'number-max-precision': 10,
     'selector-attribute-operator-space-after': 'never',
     'selector-attribute-operator-space-before': 'never',
-    'selector-not-notation': "complex",
+    'selector-not-notation': 'complex',
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
     'shorthand-property-no-redundant-values': true,
@@ -38,6 +38,6 @@ module.exports = {
     'order/properties-alphabetical-order': true,
 
     // scss
-    'scss/selector-no-union-class-name': true
-  }
-};
+    'scss/selector-no-union-class-name': true,
+  },
+}
