@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-recommended-scss', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-recommended-scss'],
   plugins: ['stylelint-order'],
   rules: {
     'alpha-value-notation': 'number',
