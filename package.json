@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "stylelint-config-recommended-scss": "^14.1.0",
-    "stylelint-order": "^6.0.0"
+    "stylelint-order": "^7.0.0"
   },
   "devDependencies": {
     "@amaneku/prettier-config": "3.0.0",
